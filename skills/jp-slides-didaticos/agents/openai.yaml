@@ -1,0 +1,9 @@
+interface:
+  display_name: "JP Slides Didáticos"
+  short_description: "Slides educativos com notas e fontes"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#000000"
+  default_prompt: "Use $jp-slides-didaticos para transformar meu resumo em slides educativos com notas de estudo e identidade JP Wealth."
+policy:
+  allow_implicit_invocation: false

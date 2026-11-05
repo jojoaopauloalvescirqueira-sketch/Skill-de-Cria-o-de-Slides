@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jp-slides-didaticos",
+  "version": "1.5.1",
+  "description": "Apresentações educativas de resumos próprios, com notas, fontes e identidade JP Wealth, usando ferramentas locais.",
+  "author": {
+    "email": "jojoaopauloalvescirqueira@gmail.com",
+    "name": "João Paulo Vinagre Alves Cirqueira"
+  },
+  "keywords": [
+    "slides",
+    "didática",
+    "estudo",
+    "notas",
+    "fontes",
+    "JP Wealth",
+    "jp-slides-didaticos"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "JP Slides Didáticos",
+        "shortDescription": "Slides com rigor e clareza",
+        "longDescription": "Crie ou revise apresentações educativas de resumos próprios de obras, com fontes rastreáveis, notas para estudo, público misto e identidade JP Wealth. O fluxo inclui pesquisa proporcional, composição didática, revisão e um verificador estrutural de PPTX. Gerar, renderizar e reabrir os formatos depende das ferramentas e do runtime local disponíveis no host; o pacote não os instala. A eficácia pedagógica depende de avaliação com aprendizes.",
+        "developerName": "João Paulo Vinagre Alves Cirqueira",
+        "category": "Education",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "brandColor": "#000000",
+        "defaultPrompt": "Use $jp-slides-didaticos para transformar meu resumo em slides educativos com notas de estudo e identidade JP Wealth."
+      },
+      "requires_local_executor": true
+    }
+  }
+}

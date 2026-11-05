@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">JP Slides Didáticos</title>
+  <desc id="desc">Duas telas de apresentação em preto e branco, com mensagem e esquema.</desc>
+  <rect width="256" height="256" rx="40" fill="#000000"/>
+  <path d="M66 54h138v112" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="42" y="76" width="140" height="106" rx="6" fill="#FFFFFF"/>
+  <path d="M62 100h94M62 116h58" fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <path d="M72 150h28m0 0 18-15m-18 15 18 15" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M112 182v24m-30 0h60" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+</svg>
